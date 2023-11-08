@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  title: string = 'The title';
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  updateTitle(value) {
+    console.log(`updateTitle: ${value}`);
+    this.title = value;
   }
 
 }
