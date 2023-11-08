@@ -14,9 +14,4 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  updateTitle(value) {
-    console.log(`updateTitle: ${value}`);
-    this.title = value;
-  }
-
 }
